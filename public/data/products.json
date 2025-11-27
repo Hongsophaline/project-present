@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Organic Jasmine Rice",
+    "category": "Grains",
+    "description": "High-quality jasmine rice grown without chemicals.",
+    "price": 1.2,
+    "unit": "kg",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "Cambodia"
+  },
+  {
+    "id": 2,
+    "name": "Fresh Mango",
+    "category": "Fruits",
+    "description": "Sweet yellow mangoes harvested at peak ripeness.",
+    "price": 2.0,
+    "unit": "kg",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "Thailand"
+  },
+  {
+    "id": 3,
+    "name": "Raw Cashew Nuts",
+    "category": "Nuts",
+    "description": "Unroasted cashew nuts with natural flavor.",
+    "price": 5.5,
+    "unit": "kg",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "Vietnam"
+  },
+  {
+    "id": 4,
+    "name": "Black Pepper",
+    "category": "Spices",
+    "description": "Premium pepper with strong aroma.",
+    "price": 12.0,
+    "unit": "kg",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "Cambodia"
+  },
+  {
+    "id": 5,
+    "name": "Fresh Bananas",
+    "category": "Fruits",
+    "description": "Naturally ripened bananas with soft texture.",
+    "price": 1.0,
+    "unit": "kg",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "Philippines"
+  },
+  {
+    "id": 6,
+    "name": "Soybeans",
+    "category": "Legumes",
+    "description": "High-protein soybeans suitable for food and feed.",
+    "price": 0.9,
+    "unit": "kg",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "China"
+  },
+  {
+    "id": 7,
+    "name": "Dried Red Chili",
+    "category": "Spices",
+    "description": "Sun-dried chili peppers with strong heat.",
+    "price": 3.8,
+    "unit": "kg",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "India"
+  },
+  {
+    "id": 8,
+    "name": "Fresh Lettuce",
+    "category": "Vegetables",
+    "description": "Crisp green lettuce grown using clean farming methods.",
+    "price": 0.8,
+    "unit": "kg",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "Cambodia"
+  },
+  {
+    "id": 9,
+    "name": "Raw Honey",
+    "category": "Honey",
+    "description": "Pure natural honey directly from local beekeepers.",
+    "price": 6.5,
+    "unit": "bottle",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "Cambodia"
+  },
+  {
+    "id": 10,
+    "name": "Coconut Oil",
+    "category": "Oils",
+    "description": "Cold-pressed virgin coconut oil.",
+    "price": 4.2,
+    "unit": "bottle",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "Sri Lanka"
+  },
+  {
+    "id": 11,
+    "name": "Red Kidney Beans",
+    "category": "Legumes",
+    "description": "High-fiber kidney beans for soups and salads.",
+    "price": 1.1,
+    "unit": "kg",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "Myanmar"
+  },
+  {
+    "id": 12,
+    "name": "Sweet Corn",
+    "category": "Vegetables",
+    "description": "Golden sweet corn harvested fresh from farms.",
+    "price": 1.5,
+    "unit": "kg",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/corn-1238252_1280.jpg",
+    "origin": "Cambodia"
+  }
+]

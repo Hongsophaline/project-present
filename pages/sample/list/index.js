@@ -1,19 +1,41 @@
 const sampleList = document.getElementById("sampleList");
 
-fetch("/public/data/products.json")
+// Your API endpoint
+const API_URL = "http://localhost:3000/api/products";
+
+fetch(API_URL)
   .then((response) => response.json())
-  .then((data) => {
-    console.log(data);
-    if (data.length > 0) {
-      for (let i = 0; i < data.length; i++) {
-        sampleList.innerHTML += `
-            <div class="card">
-                <img src="${data[i].image}" alt="Avatar">
-                <h3>${data[i].name}</h3>
-                <p>${data[i].description}</p>
-                <a href="/pages/sample/detail/index.html">View Detail</a>
-            </div>
-            `;
-      }
+  .then((result) => {
+    console.log(result); // check your API output
+
+    const products = result.products;
+
+    if (!Array.isArray(products) || products.length === 0) {
+      sampleList.innerHTML = "<p>No products found.</p>";
+      return;
     }
+
+    // Build HTML string
+    let html = "";
+    products.forEach((product) => {
+      // Adjust image path if needed
+      const imgSrc = `/public/images/${product.image}`;
+
+      html += `
+        <div class="card">
+          <img src="${imgSrc}" alt="${product.name}" />
+          <h3>${product.name}</h3>
+          <p>Category: ${product.category}</p>
+          <p>Price: $${product.price}</p>
+          <p>Stock: ${product.stock}</p>
+          <a href="/pages/sample/index.js?id=${product._id}">View Detail</a>
+        </div>
+      `;
+    });
+
+    sampleList.innerHTML = html;
+  })
+  .catch((error) => {
+    console.error("Fetch error:", error);
+    sampleList.innerHTML = "<p>Failed to load products.</p>";
   });
